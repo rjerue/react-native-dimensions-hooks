@@ -4,6 +4,8 @@ Hooks to wrap the React Native Dimensions API for Native and React Native Web.
 
 They use listeners under the hood, so they will update on window and screen size changes.
 
+[Demo](https://rjerue.github.io/react-native-dimensions-hooks)
+
 ## Usage:
 
 ```

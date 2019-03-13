@@ -1,6 +1,6 @@
 {
   "name": "react-native-dimensions-hooks",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Hooks to wrap the React Native Dimensions API for React Native and React Native Web",
   "main": "index.js",
   "repository": {
@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/rjerue/react-native-dimensions-hooks/issues"
   },
-  "homepage": "https://rjerue.github.io/react-native-dimensions-hooks#readme",
+  "homepage": "https://rjerue.github.io/react-native-dimensions-hooks",
   "peerDependencies": {
     "react": "^16.7.0"
   },
@@ -52,7 +52,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "prepublishOnly": "npm run release",
-    "release": "npm run build:dev && npm run build:prod",
+    "release": "yarn build:dev && yarn build:prod && yarn deploy-storybook",
     "build:prod": "NODE_ENV=production rollup -c",
     "build:dev": "NODE_ENV=development rollup -c",
     "deploy-storybook": "storybook-to-ghpages"
@@ -65,5 +65,6 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "private": false
 }
