@@ -12,7 +12,7 @@ function useDimensionsHelper(dim) {
     return () => {
       Dimensions.removeEventListener("change", handleDimChange);
     };
-  });
+  }, []);
   return dims;
 }
 
