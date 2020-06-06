@@ -1,5 +1,21 @@
 {
-  "version": "0.1.0",
+  "name": "react-native-dimensions-hooks",
+  "version": "0.1.2",
+  "description": "Hooks to wrap the React Native Dimensions API for React Native and React Native Web",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjerue/react-native-dimensions-hooks.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "react-native-web",
+    "hooks",
+    "hook",
+    "dimensions",
+    "dimension"
+  ],
+  "author": "Ryan Jerue",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -33,8 +49,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "react-native-dimensions-hooks",
-  "author": "Ryan Jerue",
   "module": "dist/react-native-dimensions-hooks.esm.js",
   "devDependencies": {
     "@babel/core": "^7.10.2",
