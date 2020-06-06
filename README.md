@@ -8,9 +8,9 @@ They use listeners under the hood, so they will update on window and screen size
 
 ## Usage:
 
-```
-import React from "react";
-import useDimensions from "react-native-dimensions-hooks";
+```jsx
+import React from 'react';
+import useDimensions from 'react-native-dimensions-hooks';
 
 export default () => {
   const { window, screen } = useDimensions();
@@ -20,15 +20,19 @@ export default () => {
       <div>Screen {JSON.stringify(screen)}</div>
     </div>
   );
-}
-
+};
 ```
 
 Window or screen may be also imported individually by `useWindowDimensions` or `useScreenDimension`.
 
-```
-import { useWindowDimensions, useScreenDimension} from "react-native-dimensions-hooks";
+```jsx
+import {
+  useWindowDimensions,
+  useScreenDimension,
+} from 'react-native-dimensions-hooks';
 
-const useScreenDimension = useScreenDimension()
-const windowDimensions = useWindowDimensions()
+...
+
+const useScreenDimension = useScreenDimension();
+const windowDimensions = useWindowDimensions();
 ```
