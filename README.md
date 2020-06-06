@@ -24,7 +24,7 @@ export default () => {
 
 ```
 
-Window or screen may be also imported individually by `useWindowDimensions` or `useScreenDimension`. 
+Window or screen may be also imported individually by `useWindowDimensions` or `useScreenDimension`.
 
 ```
 import { useWindowDimensions, useScreenDimension} from "react-native-dimensions-hooks";

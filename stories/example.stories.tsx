@@ -1,7 +1,11 @@
-import React from "react";
-import useDimensions from "../src";
+import React from 'react';
+import useDimensions from '../src';
 
-export default () => {
+export default {
+  title: 'Examples',
+};
+
+export const Example = () => {
   const { window, screen } = useDimensions();
   return (
     <div>
@@ -9,6 +13,4 @@ export default () => {
       <div>Screen {JSON.stringify(screen)}</div>
     </div>
   );
-}
-
-
+};
