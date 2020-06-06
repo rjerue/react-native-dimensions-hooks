@@ -1,6 +1,6 @@
 {
   "name": "react-native-dimensions-hooks",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Hooks to wrap the React Native Dimensions API for React Native and React Native Web",
   "repository": {
     "type": "git",
